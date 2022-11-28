@@ -1,0 +1,260 @@
+:root {
+	--blue-color: #2196f3;
+	--darck-blue-color: #188ce8;
+	--black-color: #212121;
+	--white-color: #ffffff;
+	--ashen-color: #f5f4fa;
+	--white-ashen-color: #eeeeee;
+	--black-secondary-color: #757575;
+	--font-weight-title: 700;
+	--font-weight-sub-title: 500;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.03em;
+	background-color: var(--white-color);
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo,
+.logo-footer {
+	font-family: "Raleway", sans-serif;
+	font-weight: var(--font-weight-title);
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--blue-color);
+}
+
+.logo span {
+	color: #000;
+}
+
+.logo-footer span {
+	color: var(--white-color);
+}
+
+.link {
+	font-weight: var(--font-weight-sub-title);
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--black-color);
+}
+
+.link:hover,
+.link:focus {
+	color: var(--blue-color);
+}
+
+.current {
+	color: var(--blue-color);
+}
+
+header {
+	background: var(--white-color);
+}
+
+ul {
+	list-style-type: none;
+}
+
+.hero {
+	background-color: #2f303a;
+}
+
+.hero-title {
+	color: var(--white-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.hero-button {
+	width: 216px;
+	height: 50px;
+	background: var(--blue-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-weight: var(--font-weight-title);
+	font-size: 16px;
+	line-height: 1.87;
+	color: var(--white-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--darck-blue-color);
+}
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+.benefits h2 {
+	font-weight: var(--font-weight-title);
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	color: var(--black-color);
+}
+
+.benefits h3 {
+	font-weight: var(--font-weight-title);
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--black-color);
+}
+
+.benefits p {
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--black-secondary-color);
+}
+
+.our-work h2 {
+	font-weight: var(--font-weight-title);
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	color: var(--black-color);
+}
+
+.team {
+	background-color: var(--ashen-color);
+}
+
+.team-card {
+	background-color: var(--white-color);
+}
+
+.team h2 {
+	font-weight: var(--font-weight-title);
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	color: var(--black-color);
+}
+
+.team-card h3 {
+	font-weight: var(--font-weight-sub-title);
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+	color: var(--black-color);
+}
+
+.team-card p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+	color: var(--black-secondary-color);
+}
+
+.footer,
+.footer-portfolio {
+	background: #2f303a;
+}
+
+address a {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--white-color);
+	font-style: normal;
+}
+
+address a:hover,
+address a:focus {
+	color: var(--blue-color);
+}
+
+.opacity {
+	opacity: 0.6;
+}
+
+.filters {
+	font-weight: var(--font-weight-sub-title);
+	font-size: 16px;
+	line-height: 1.63;
+	color: var(--black-color);
+}
+
+.filtr-button {
+	height: 38px;
+	font-weight: var(--font-weight-sub-title);
+	font-size: 16px;
+	line-height: 1.62;
+	color: var(--black-color);
+	font-family: inherit;
+	border-radius: 4px;
+	background: var(--ashen-color);
+}
+
+.filtr-button:hover,
+.filtr-button:focus {
+	background-color: var(--blue-color);
+	color: var(--white-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.all-cards {
+	width: 73px;
+}
+
+.card-web-sites {
+	width: 125px;
+}
+
+.applications {
+	width: 112px;
+}
+
+.design {
+	width: 103px;
+}
+
+.marketing {
+	width: 130px;
+}
+
+.card-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--black-color);
+}
+
+.card-dsr {
+	font-size: 16px;
+	line-height: 1.88;
+	color: var(--black-secondary-color);
+}
+
+.cards img {
+	width: 370px;
+	height: 294px;
+}
+
+.card {
+	background: var(--white-color);
+	border: 1px solid --white-ashen-color;
+}
